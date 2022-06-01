@@ -6,5 +6,5 @@ const { owner, repo } = context.repo;
 const process = require('process');
 
 const octokit = new GitHub(process.env.GITHUB_TOKEN);
-const foo = 'bar'
-console.log(foo)
+// const foo = 'bar'
+// console.log(foo)
