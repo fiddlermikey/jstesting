@@ -1,9 +1,11 @@
 {
   "name": "jstesting",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "version": "0.1.0",
+  "description": "testing",
+  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
+    "build": "ncc build index.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +13,9 @@
     "url": "git+https://github.com/fiddlermikey/jstesting.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fiddlermikey/jstesting/issues"
   },
-  "homepage": "https://github.com/fiddlermikey/jstesting#readme",
-  "dependencies": {
-    "@actions/core": "^1.8.2",
-    "@actions/github": "^5.0.3"
-  }
+  "homepage": "https://github.com/fiddlermikey/jstesting#readme"
 }
