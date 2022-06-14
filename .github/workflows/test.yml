@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-#   - uses: ./
+#    - uses: actions/checkout@v3
+#    - uses: ./
     - name: "What branch am I on"
-      run: echo "Branch name = ${{ github.ref}}"
+      run: echo `Branch name = ${{ github.ref}}.Split("/")`
