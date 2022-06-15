@@ -11,5 +11,5 @@ jobs:
 #    - uses: ./
     - name: "What branch am I on"
       run: |
-        $repoName = "${{ github.ref }}".Split("/")
-        echo "Branch name = ${{ github.ref}}"
+        $branchName = "${{ github.ref }}".Split("/")
+        echo "Branch name = $branchName
