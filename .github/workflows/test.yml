@@ -12,4 +12,4 @@ jobs:
     - name: "What branch am I on"
       run: |
         $branchName = "${{ github.ref }}".Split("/")
-        echo "Branch name = $branchName
+        echo "Branch name = $branchName"
