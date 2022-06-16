@@ -8830,14 +8830,6 @@ module.exports = eval("require")("encoding");
 
 /***/ }),
 
-/***/ 7864:
-/***/ ((module) => {
-
-module.exports = eval("require")("semver");
-
-
-/***/ }),
-
 /***/ 9491:
 /***/ ((module) => {
 
@@ -9013,7 +9005,7 @@ const core = __nccwpck_require__(3722);
 const { GitHub, context } = __nccwpck_require__(8408);
 
 const { owner, repo } = context.repo;
-const semver = __nccwpck_require__(7864);
+// const semver = require('semver');
 const process = __nccwpck_require__(7282);
 
 const octokit = new GitHub(process.env.GITHUB_TOKEN);
